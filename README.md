@@ -8,7 +8,11 @@ Does this work, thats is the question. This note was added by VS-code on the Mac
 To pull from GIT: git pull
 
 To push the made changes to GIT:
+
 Check status: git status
+
 Add the commit: git add [file name]
+
 Make the commit: git commit -m "INSERT WHAT CHANGE MADE"
+
 push the commit to GIT: git push
