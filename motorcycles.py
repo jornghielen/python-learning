@@ -1,9 +1,12 @@
-motorcycles = ['honda', 'yamaha', 'suzuki'] # Owned Motorcycles
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati'] # Owned Motorcycles
 
-# Lists
-last_owned = motorcycles.pop() 
-first_owned = motorcycles.pop(0)
+# Print all owned motorcycles.
+print(motorcycles)
 
-# Messages
-print(f"The last motorcycle I owned was a {last_owned.title()}.")
-print(f"The first motorcycle I owned was a {first_owned.title()}.")
+# Specify the onces that are to expensive and removing them.
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+
+# Message
+print(f"\nA {too_expensive.title()} is too expensive for Joram.")
