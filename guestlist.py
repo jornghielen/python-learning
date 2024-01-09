@@ -1,9 +1,7 @@
 guest_list = ['kristin', 'hetty', 'mark', 'ires']
 
-print(f"Hello {guest_list[0].title()}, would you like to join me for dinner tonight?")
-print(f"Hello {guest_list[1].title()}, would you like to join me for dinner tonight?")
-print(f"Hello {guest_list[2].title()}, would you like to join me for dinner tonight?")
-print(f"Hello {guest_list[3].title()}, would you like to join me for dinner tonight?")
+for guests in guest_list:
+    print(f"Hello {guests.title()}, would you like to join me for dinner tonight?")
 
 guest_declined = 'ires'
 
@@ -13,10 +11,8 @@ print(f"\n{guest_declined.title()} declined the invite.")
 
 guest_list.insert(0, 'oma nel')
 
-print(f"\nHello {guest_list[0].title()}, I have some extra space! Would you like to join me for dinner tonight?")
-print(f"Hello {guest_list[1].title()}, would you like to join me for dinner tonight?")
-print(f"Hello {guest_list[2].title()}, would you like to join me for dinner tonight?")
-print(f"Hello {guest_list[3].title()}, would you like to join me for dinner tonight?")
+for guests in guest_list:
+    print(f"\nHello {guests.title()}, I have some extra space! Would you like to join me for dinner tonight?")
 
 popped_guest_list = guest_list.pop()
 popped_guest_list2 = guest_list.pop(-1)
