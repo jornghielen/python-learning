@@ -1,4 +1,13 @@
 pizzas = ['hawai', 'peperoni', 'salami']
+friend_pizzas = pizzas[:]
+
+pizzas.append('4 cheese')
+friend_pizzas.append('cappacia')
+
+print(f"My favorite pizzas are:")
 for pizza in pizzas:
-    print(f"I really love pizza, especially {pizza.title()}.")
-print(f"\nWhat kind of pizza do you like?")
+    print(pizza.title())
+
+print(f"\nMy friends favorite pizzas are:")
+for friend_pizza in friend_pizzas:
+    print(friend_pizza.title())
