@@ -12,7 +12,7 @@ print(f"\n{guest_declined.title()} declined the invite.")
 guest_list.insert(0, 'oma nel')
 
 for guests in guest_list:
-    print(f"\nHello {guests.title()}, I have some extra space! Would you like to join me for dinner tonight?")
+    print(f"\nHello {guests.title()}, I have some changes to the guest list, if you get this message you are still or have been added to the geust list.")
 
 popped_guest_list = guest_list.pop()
 popped_guest_list2 = guest_list.pop(-1)
