@@ -1,4 +1,11 @@
-cars_owned = ['seat ibiza', 'bmw 1 series', 'renault megane grand tour', 'renault clio']
+cars_owned = ['seat', 'bmw', 'renault',]
+
+for car_owned in cars_owned:
+    if car_owned == 'bmw':
+        print(car_owned.upper())
+    else:
+        print(car_owned.title())
+
 print("Here is the orignal list:")
 print(cars_owned)
 
