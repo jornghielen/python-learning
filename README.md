@@ -11,7 +11,7 @@ To push the made changes to GIT:
 
 Check status: git status
 
-Add the commit: git add [file name]
+Add the commit: git add [file name] // or type: git add . (for all files)
 
 Make the commit: git commit -m "INSERT WHAT CHANGE MADE"
 
