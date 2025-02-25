@@ -1,18 +1,15 @@
 import matplotlib.pyplot as plt
 
-input_value = [1, 2, 3, 4, 5]
-squares = [1, 4, 9, 16, 25]
-
 plt.style.use('seaborn')
-fig, ax = plt.subplots()
-ax.plot(input_value, squares, linewidth=3)
+fig, ax = plt.subplot()
+ax.scatter(2, 4, s=200)
 
-# Set charge title and label axes.
+# Set chart title and label axes.
 ax.set_title("Square Numbers", frontsize=24)
 ax.set_xlabel("Value", frontsize=14)
 ax.set_ylabel("Square of Value", frontsize=14)
 
 # Set size of tick labels.
-ax.tick_params(axis='both', labelsize=14)
+ax.tick_params(axis='both', which='major', labelsize=14)
 
 plt.show()
